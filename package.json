@@ -1,0 +1,20 @@
+{
+  "name": "riset-produk-profitable",
+  "version": "1.0.0",
+  "description": "Platform riset top 10 produk (fisik & digital) yang terbukti laku dalam 30 hari terakhir",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.8.0",
+    "express": "^5.3.0",
+    "zod": "^4.6.7"
+  }
+}

@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Riset Produk Profitable — Top 10 produk terbukti laku 30 hari terakhir</title>
+  <meta name="description" content="Masukkan niche atau keyword, dapatkan top 10 produk fisik & digital yang terbukti laku dalam 30 hari terakhir, lengkap dengan buktinya.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%230f6b4f'/><path d='M8 21l5-6 4 3 7-9' stroke='white' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="/">
+      <span class="brand-mark" aria-hidden="true"></span>
+      Riset Produk Profitable
+    </a>
+    <div class="sources-status" id="sourcesStatus" aria-label="Status sumber data"></div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Temukan 10 produk yang <em>terbukti laku</em> bulan ini.</h1>
+      <p class="lede">Ketik niche atau keyword. Kami menelusuri Facebook Ad Library, Etsy, Amazon, TikTok Shop, dan sumber lain, lalu menyusun peringkat berdasarkan bukti 30 hari terakhir.</p>
+
+      <form id="form" class="search" autocomplete="off">
+        <label class="sr-only" for="keyword">Niche atau keyword</label>
+        <div class="search-row">
+          <input id="keyword" name="keyword" type="text" maxlength="120" required
+                 placeholder="mis. perlengkapan kucing, planner digital, yoga…">
+          <button id="submit" type="submit">Riset sekarang</button>
+        </div>
+
+        <div class="options">
+          <fieldset class="segmented" aria-label="Jenis produk">
+            <label><input type="radio" name="type" value="all" checked><span>Semua</span></label>
+            <label><input type="radio" name="type" value="physical"><span>Fisik</span></label>
+            <label><input type="radio" name="type" value="digital"><span>Digital</span></label>
+          </fieldset>
+          <label class="select">
+            <span>Pasar</span>
+            <select id="market" name="market">
+              <option>Global</option>
+              <option>Indonesia</option>
+              <option>Amerika Serikat</option>
+              <option>Eropa &amp; UK</option>
+              <option>Asia Tenggara</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="examples" id="examples">
+          <span>Coba:</span>
+          <button type="button">perlengkapan kucing</button>
+          <button type="button">planner digital</button>
+          <button type="button">skincare pria</button>
+          <button type="button">dekorasi kamar aesthetic</button>
+          <button type="button">template Notion</button>
+        </div>
+      </form>
+
+      <div class="history" id="history" hidden>
+        <span>Riset terakhir:</span>
+        <div id="historyList"></div>
+      </div>
+    </section>
+
+    <section class="progress" id="progress" hidden aria-live="polite">
+      <div class="progress-head">
+        <span class="spinner" aria-hidden="true"></span>
+        <div>
+          <strong id="progressTitle">Sedang meriset…</strong>
+          <p>Riset mendalam biasanya memakan 2–5 menit. <span id="elapsed"></span></p>
+        </div>
+        <button type="button" id="cancel" class="ghost">Batalkan</button>
+      </div>
+      <ol class="log" id="log"></ol>
+    </section>
+
+    <section class="notice error" id="error" hidden role="alert"></section>
+
+    <section class="results" id="results" hidden>
+      <div class="results-head">
+        <div>
+          <p class="eyebrow" id="resultMeta"></p>
+          <h2 id="resultTitle"></h2>
+        </div>
+        <div class="actions">
+          <button type="button" class="ghost" id="refresh">Riset ulang</button>
+          <button type="button" class="ghost" id="exportCsv">Unduh CSV</button>
+          <button type="button" class="ghost" id="exportJson">Unduh JSON</button>
+        </div>
+      </div>
+
+      <p class="summary" id="summary"></p>
+
+      <div class="filter" id="filter" role="tablist" aria-label="Saring jenis produk"></div>
+      <div class="cards" id="cards"></div>
+
+      <div class="extras">
+        <div class="panel" id="trendsPanel">
+          <h3>Tren di niche ini</h3>
+          <ul id="trends"></ul>
+        </div>
+        <div class="panel caveats" id="caveatsPanel">
+          <h3>Keterbatasan data</h3>
+          <ul id="caveats"></ul>
+        </div>
+      </div>
+
+      <p class="disclaimer">“Terbukti laku” di sini berarti ada sinyal publik yang kuat (iklan yang terus tayang, badge terlaris, angka ulasan/penjualan). Laba bersih penjual tidak pernah dipublikasikan, jadi skor adalah indikator, bukan jaminan. Buka tautan buktinya sebelum mengambil keputusan.</p>
+    </section>
+  </main>
+
+  <footer>
+    Sumber: pencarian web langsung + API Etsy &amp; Meta Ad Library (bila diaktifkan). Analisis oleh Claude.
+  </footer>
+
+  <dialog id="accessDialog">
+    <form method="dialog">
+      <h3>Kode akses</h3>
+      <p>Instalasi ini dilindungi kode akses.</p>
+      <input id="accessInput" type="password" autocomplete="off" required>
+      <div class="dialog-actions">
+        <button value="cancel" class="ghost" formnovalidate>Batal</button>
+        <button value="ok">Lanjut</button>
+      </div>
+    </form>
+  </dialog>
+
+  <script src="app.js" type="module"></script>
+</body>
+</html>
