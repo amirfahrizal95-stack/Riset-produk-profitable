@@ -1,0 +1,289 @@
+{
+  "events": [
+    {
+      "type": "status",
+      "message": "Mode tiruan: tidak ada riset yang dijalankan"
+    },
+    {
+      "type": "search",
+      "query": "contoh kueri pencarian"
+    },
+    {
+      "type": "fetch",
+      "url": "https://example.com/contoh"
+    }
+  ],
+  "result": {
+    "summary": "INI DATA TIRUAN untuk pengembangan antarmuka — bukan hasil riset nyata.",
+    "products": [
+      {
+        "rank": 1,
+        "name": "Contoh Produk 1 (data tiruan)",
+        "type": "physical",
+        "category": "Aksesori",
+        "description": "Entri tiruan untuk menguji tampilan. Bukan hasil riset.",
+        "why_profitable": "Teks contoh: di laporan asli bagian ini menjelaskan bukti penjualan 30 hari terakhir.",
+        "price_range": "Rp 85.000–150.000",
+        "estimated_margin": "Tidak cukup data",
+        "target_audience": "Contoh audiens",
+        "competition": "medium",
+        "profit_score": 89,
+        "confidence": "medium",
+        "signals": [
+          {
+            "source": "Sumber contoh",
+            "signal": "Sinyal tiruan #1",
+            "url": "https://example.com/contoh-1",
+            "observed": "Nov 2026",
+            "verified": false
+          }
+        ],
+        "how_to_start": "Contoh langkah memulai.",
+        "risks": "Contoh risiko."
+      },
+      {
+        "rank": 2,
+        "name": "Contoh Produk 2 (data tiruan)",
+        "type": "digital",
+        "category": "Template",
+        "description": "Entri tiruan untuk menguji tampilan. Bukan hasil riset.",
+        "why_profitable": "Teks contoh: di laporan asli bagian ini menjelaskan bukti penjualan 30 hari terakhir.",
+        "price_range": "US$5–12",
+        "estimated_margin": "Tidak cukup data",
+        "target_audience": "Contoh audiens",
+        "competition": "high",
+        "profit_score": 83,
+        "confidence": "low",
+        "signals": [
+          {
+            "source": "Sumber contoh",
+            "signal": "Sinyal tiruan #2",
+            "url": "https://example.com/contoh-2",
+            "observed": "Nov 2026",
+            "verified": true
+          }
+        ],
+        "how_to_start": "Contoh langkah memulai.",
+        "risks": "Contoh risiko."
+      },
+      {
+        "rank": 3,
+        "name": "Contoh Produk 3 (data tiruan)",
+        "type": "physical",
+        "category": "Aksesori",
+        "description": "Entri tiruan untuk menguji tampilan. Bukan hasil riset.",
+        "why_profitable": "Teks contoh: di laporan asli bagian ini menjelaskan bukti penjualan 30 hari terakhir.",
+        "price_range": "Rp 85.000–150.000",
+        "estimated_margin": "Tidak cukup data",
+        "target_audience": "Contoh audiens",
+        "competition": "low",
+        "profit_score": 77,
+        "confidence": "high",
+        "signals": [
+          {
+            "source": "Sumber contoh",
+            "signal": "Sinyal tiruan #3",
+            "url": "https://example.com/contoh-3",
+            "observed": "Nov 2026",
+            "verified": false
+          }
+        ],
+        "how_to_start": "Contoh langkah memulai.",
+        "risks": "Contoh risiko."
+      },
+      {
+        "rank": 4,
+        "name": "Contoh Produk 4 (data tiruan)",
+        "type": "digital",
+        "category": "Template",
+        "description": "Entri tiruan untuk menguji tampilan. Bukan hasil riset.",
+        "why_profitable": "Teks contoh: di laporan asli bagian ini menjelaskan bukti penjualan 30 hari terakhir.",
+        "price_range": "US$5–12",
+        "estimated_margin": "Tidak cukup data",
+        "target_audience": "Contoh audiens",
+        "competition": "medium",
+        "profit_score": 71,
+        "confidence": "medium",
+        "signals": [
+          {
+            "source": "Sumber contoh",
+            "signal": "Sinyal tiruan #4",
+            "url": "https://example.com/contoh-4",
+            "observed": "Nov 2026",
+            "verified": true
+          }
+        ],
+        "how_to_start": "Contoh langkah memulai.",
+        "risks": "Contoh risiko."
+      },
+      {
+        "rank": 5,
+        "name": "Contoh Produk 5 (data tiruan)",
+        "type": "physical",
+        "category": "Aksesori",
+        "description": "Entri tiruan untuk menguji tampilan. Bukan hasil riset.",
+        "why_profitable": "Teks contoh: di laporan asli bagian ini menjelaskan bukti penjualan 30 hari terakhir.",
+        "price_range": "Rp 85.000–150.000",
+        "estimated_margin": "Tidak cukup data",
+        "target_audience": "Contoh audiens",
+        "competition": "high",
+        "profit_score": 65,
+        "confidence": "low",
+        "signals": [
+          {
+            "source": "Sumber contoh",
+            "signal": "Sinyal tiruan #5",
+            "url": "https://example.com/contoh-5",
+            "observed": "Nov 2026",
+            "verified": false
+          }
+        ],
+        "how_to_start": "Contoh langkah memulai.",
+        "risks": "Contoh risiko."
+      },
+      {
+        "rank": 6,
+        "name": "Contoh Produk 6 (data tiruan)",
+        "type": "digital",
+        "category": "Template",
+        "description": "Entri tiruan untuk menguji tampilan. Bukan hasil riset.",
+        "why_profitable": "Teks contoh: di laporan asli bagian ini menjelaskan bukti penjualan 30 hari terakhir.",
+        "price_range": "US$5–12",
+        "estimated_margin": "Tidak cukup data",
+        "target_audience": "Contoh audiens",
+        "competition": "low",
+        "profit_score": 59,
+        "confidence": "high",
+        "signals": [
+          {
+            "source": "Sumber contoh",
+            "signal": "Sinyal tiruan #6",
+            "url": "https://example.com/contoh-6",
+            "observed": "Nov 2026",
+            "verified": true
+          }
+        ],
+        "how_to_start": "Contoh langkah memulai.",
+        "risks": "Contoh risiko."
+      },
+      {
+        "rank": 7,
+        "name": "Contoh Produk 7 (data tiruan)",
+        "type": "physical",
+        "category": "Aksesori",
+        "description": "Entri tiruan untuk menguji tampilan. Bukan hasil riset.",
+        "why_profitable": "Teks contoh: di laporan asli bagian ini menjelaskan bukti penjualan 30 hari terakhir.",
+        "price_range": "Rp 85.000–150.000",
+        "estimated_margin": "Tidak cukup data",
+        "target_audience": "Contoh audiens",
+        "competition": "medium",
+        "profit_score": 53,
+        "confidence": "medium",
+        "signals": [
+          {
+            "source": "Sumber contoh",
+            "signal": "Sinyal tiruan #7",
+            "url": "https://example.com/contoh-7",
+            "observed": "Nov 2026",
+            "verified": false
+          }
+        ],
+        "how_to_start": "Contoh langkah memulai.",
+        "risks": "Contoh risiko."
+      },
+      {
+        "rank": 8,
+        "name": "Contoh Produk 8 (data tiruan)",
+        "type": "digital",
+        "category": "Template",
+        "description": "Entri tiruan untuk menguji tampilan. Bukan hasil riset.",
+        "why_profitable": "Teks contoh: di laporan asli bagian ini menjelaskan bukti penjualan 30 hari terakhir.",
+        "price_range": "US$5–12",
+        "estimated_margin": "Tidak cukup data",
+        "target_audience": "Contoh audiens",
+        "competition": "high",
+        "profit_score": 47,
+        "confidence": "low",
+        "signals": [
+          {
+            "source": "Sumber contoh",
+            "signal": "Sinyal tiruan #8",
+            "url": "https://example.com/contoh-8",
+            "observed": "Nov 2026",
+            "verified": true
+          }
+        ],
+        "how_to_start": "Contoh langkah memulai.",
+        "risks": "Contoh risiko."
+      },
+      {
+        "rank": 9,
+        "name": "Contoh Produk 9 (data tiruan)",
+        "type": "physical",
+        "category": "Aksesori",
+        "description": "Entri tiruan untuk menguji tampilan. Bukan hasil riset.",
+        "why_profitable": "Teks contoh: di laporan asli bagian ini menjelaskan bukti penjualan 30 hari terakhir.",
+        "price_range": "Rp 85.000–150.000",
+        "estimated_margin": "Tidak cukup data",
+        "target_audience": "Contoh audiens",
+        "competition": "low",
+        "profit_score": 41,
+        "confidence": "high",
+        "signals": [
+          {
+            "source": "Sumber contoh",
+            "signal": "Sinyal tiruan #9",
+            "url": "https://example.com/contoh-9",
+            "observed": "Nov 2026",
+            "verified": false
+          }
+        ],
+        "how_to_start": "Contoh langkah memulai.",
+        "risks": "Contoh risiko."
+      },
+      {
+        "rank": 10,
+        "name": "Contoh Produk 10 (data tiruan)",
+        "type": "digital",
+        "category": "Template",
+        "description": "Entri tiruan untuk menguji tampilan. Bukan hasil riset.",
+        "why_profitable": "Teks contoh: di laporan asli bagian ini menjelaskan bukti penjualan 30 hari terakhir.",
+        "price_range": "US$5–12",
+        "estimated_margin": "Tidak cukup data",
+        "target_audience": "Contoh audiens",
+        "competition": "medium",
+        "profit_score": 35,
+        "confidence": "medium",
+        "signals": [
+          {
+            "source": "Sumber contoh",
+            "signal": "Sinyal tiruan #10",
+            "url": "https://example.com/contoh-10",
+            "observed": "Nov 2026",
+            "verified": true
+          }
+        ],
+        "how_to_start": "Contoh langkah memulai.",
+        "risks": "Contoh risiko."
+      }
+    ],
+    "trends": [
+      "Tren contoh A",
+      "Tren contoh B"
+    ],
+    "caveats": [
+      "Seluruh isi laporan ini adalah data tiruan (MOCK_FIXTURE)."
+    ],
+    "meta": {
+      "period": {
+        "since": "2026-10-17",
+        "until": "2026-11-16"
+      },
+      "generated_at": "2026-11-16T00:00:00.000Z",
+      "duration_seconds": 1,
+      "sources_count": 0,
+      "connectors": [],
+      "model": "mock"
+    }
+  }
+}
